@@ -5,14 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment - 5</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <header>
+        <img id="falling" src="Images/header.jpeg" alt="A human looking at a hole in the ground.">
         <h1>Under the Surface</h1>
         <h2>Dare to See What's Beneath</h2>
+        <img id="monsters" src="Images/monster-row.png" alt="It's a row of monsters from the game Undertale.">
     </header>
 
     <main>
+        <p>We have been always right beneath you guys and we want to join the surface. So we came up with the brilliant idea to first sell our favorite foods to you guys. We heard that it is easier to sell to a lot of customers if we have a website that you can order from so order what you would like.</p>
+    
+    <section id="order-form">   
+        <h2>Order Below</h2>
+        <form action="" method="POST">
+            <h3>Details</h3>
+            <section id="order-details">
+                <fieldset>
+                    <legend>User Details</legend>
+
+                    <label for="first-name">First Name:</label>
+                    <input type="text" name="first-name" id="first-name" placeholder="Ex. Gustavo" required>
+                    <br>
+
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Ex. Percastre" required>
+                    <br>
+
+                    <label for="email-address">Email Address:</label>
+                    <input type="email" name="email-address" id="email-address" placeholder="Ex. angelpercastre293@gmail.com" required>
+                    <br>
+
+                    <p>
+                        Dining Preference <br>
+                        <input type="radio" name="dining-preference" id="here" checked>
+                        <label for="here">Dine In</label>
+                        <input type="radio" name="dining-preference" id="togo">
+                        <label for="togo">To-Go</label>
+                    </p>
+                </fieldset>
+            </section>
+            
+        </form>
+    </section>     
 
     </main>
 
